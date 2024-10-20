@@ -1,0 +1,36 @@
+.contact {
+    display: flex;
+    align-items: center;
+    background-color: #34495e;
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .contact:hover {
+    background-color: #1abc9c;
+    transform: translateY(-5px);
+  }
+  
+  .contact img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+  }
+  
+  .contact div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .contact-job {
+    font-size: 0.9rem;
+  }
